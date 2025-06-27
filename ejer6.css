@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px;
+}
+
+#principal{
+ 
+}
+
+.libre{
+  position:fixed;
+  top: 20px;
+  left: 250px;
+
+  background-color: white;
+  color: black ;
+  width: 480px;
+  height: 90px;
+  font-size: 60px; 
+}
+
+.inicio{
+  position:fixed;
+  top: 80px;
+  right: 550px;
+
+  background-color: white;
+  color: black ;
+  width: 180px;
+  height: 45px;
+  font-size: 28px; 
+}
+
+.about{
+  position:fixed;
+  top: 80px;
+  right: 425px;
+
+  background-color: white;
+  color: black ;
+  width: 180px;
+  height: 45px;
+  font-size: 28px; 
+}
+
+.review{
+  position:fixed;
+  top: 80px;
+  right: 290px;
+
+  background-color: white;
+  color: black ;
+  width: 180px;
+  height: 45px;
+  font-size: 28px; 
+}
+
+.contact{
+  position:fixed;
+  top: 80px;
+  right: 180px;
+
+  background-color: white;
+  color: black ;
+  width: 120px;
+  height: 45px;
+  font-size: 28px; 
+}
+  
+.hr{
+    position: fixed;
+    width: 100%;   
+}
+
+#cajas{
+    display: flex; 
+    flex-direction: space-between; 
+    justify-content: center;  
+    padding: 5px;
+}
+
+.caja1{
+    width: 45%;
+    font-size: 38px;
+    font-weight: bold;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+}
+
+.caja2{
+width: 55%;
+float: right;
+padding: 20px;
+}
+
+.p{
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px;  
+  font-size: 55px;
+}
+.pa{
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 48px;
+}
